@@ -6,6 +6,10 @@ const terrain = mongo.Schema({
         type: String,
         required: true
     },
+    name: {
+        type:String,
+        required:true
+    },
     location: {
         type:String,
         required: true
@@ -13,6 +17,10 @@ const terrain = mongo.Schema({
     type: {
         type:String,
         required: true
+    },
+    prix:{
+        type:String,
+        required:true
     },
     prop_id: {
         type:String,

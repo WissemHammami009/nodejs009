@@ -40,6 +40,11 @@ const Sportif = mongo.Schema({
     code_confirm: {
         type:String,
         length:30,
+    },
+    id_pass:{
+        type:String,
+        length:10,
+        default:""
     }
 })
 

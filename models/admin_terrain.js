@@ -44,7 +44,13 @@ confirm: {
 code_confirm: {
     type:String,
     length:30,
+},
+id_pass:{
+    type:String,
+    length:10,
+    default:""
 }
+
 })
 
 module.exports = mongo.model('admin_terrain',Admin_terrain,"admin_terrain")
